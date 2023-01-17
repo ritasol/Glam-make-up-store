@@ -1,0 +1,27 @@
+*{
+    overflow-x: hidden;
+}
+.Body{
+    margin-left: 50px;
+    background-color: #cecab4;
+    
+}
+input{
+    width: 500px;
+    border-radius: 5px;
+    background-color: #8FA386;
+    max-width: 100%;
+}
+h1{
+    font-size: 30px;
+}
+button{
+    margin-left: 35%;
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #6D9075;
+}
+footer p{
+    font-size: 10px;
+    
+}

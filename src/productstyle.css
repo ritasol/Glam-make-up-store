@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Body{
+    background-color: #CECAB4;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+footer{
+    margin-left: 0;
+}
+.label2{
+    margin-top: 100px;
+}
+.product-image{
+    width: 80px;
+    height: 150px;
+    max-width: 100%;
+}
+footer{
+    position: absolute;
+    
+    margin-top: 30px;
+}
+.search-icon{
+   width: 10px;
+   height: 10px; 
+   margin-left: -200px;
+}
+footer p{
+    font-size: 10px;
+}
+.container-fluid .container h1{
+    font-size: 40px;
+    padding-top: 10px;
+    color: #6D9075;
+}
+.container .product-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.container .product-list .product{
+    margin-top: 30px;
+}
+.container .product-list .product p h4{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 100px;
+    
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+}
+.container{
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+}
+.container .search{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+.container .search a{
+    float: right;
+    
+}
+.container .search input{
+    
+    
+    width: 70%;
+    border-radius: 25px;
+    font-size: 15px;
+    
+    border: 2px solid white;
+    outline: none;
+}
+.container .search input::placeholder{
+    font-weight: 50px;
+    color: #166A5F;
+}
+button{
+    width: 0px;
+    height: 0px;
+}

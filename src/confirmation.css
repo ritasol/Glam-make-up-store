@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.Body{
+    background-color: #6D9075;
+}
+.Body-main{
+    margin-top: 15%;
+}
+.Body-main-h1{
+    font-size: 50px;
+    text-align: center;
+}
+.Body-main-p1{
+    font-size: 30px;
+    font-style: sans serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.icons{
+    width: 30px;
+}
+.links{
+    word-spacing: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer .disclaimer{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+.front{
+    display: flex;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.pro-button{
+    width: 150px;
+ 
+}
+.resume a:hover{
+    color: #ffffff;
+}
+button{
+    width: 100px;
+    height:25px;
+    padding: 0 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 25px light #929292;
+    cursor: pointer;
+    color:#31B600;
+    position: relative;
+    overflow:hidden;
+    
+}
+.b{
+    width: 0%;
+    height: 100%;
+    background:#31B600;
+    
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover .b{
+    width: 100%;
+    
+}
+button:hover{
+    border: none;
+    color: white;
+    margin-bottom: -1px;
+    
+}
+.home-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 25%;
+}
+footer p{
+    font-size: 10px;
+}

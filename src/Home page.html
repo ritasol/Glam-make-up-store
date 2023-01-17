@@ -5,131 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
+    <link rel="stylesheet" href="homestyle.css">
 </head>
-<body>
- 
-    <nav>
-        <div><img src="./Images/star logo.png" alt="star logo"><p>GLAM HUNT</p></div>
-        <ul>
-            <li>
-                <a href="./Home.html">Home</a>
-            </li>
-            <li>
-                <a href="./Products page.html">Products</a>
-            </li>
-            <li>
-                <a href="./About page.html">About</a>
-            </li>
+<body class="Body">
+    <header>
+        
+        <nav class="navbar">
+        
             
-            <li>
-                <a href="./Contacts page.html"  target="_blank">Contact</a>
-            </li>
+            <div class="logo-container"><img class="logo-pic" src="./Images/star logo.png" alt="star logo"><p class="nav-branding">GLAM HUNT</p></div>               
             
-            <li>
-                <a href="./Mycart page.html"  target="_blank"><img src="./Images/cart icon.png" alt="cart picture icon"></a>
-            </li>
-        </ul>
-    </nav>
+            <ul class="nav-menu">
+               
+               <li class="nav-item">
+                    <a class="nav-link nav_link-anchor-primary" href="#cont">Home</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" target="_blank" href="./Products page.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" target="_blank"  href="./Contacts page.html">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link" href="./my cart page.html" target="_blank"><img class="cart-image" src="./Images/cart icon.png" alt="icon image"></a></li>
+               
+               </ul>
+               <div class="hamburger">
+                <span class="bar">
+                </span>
+                <span class="bar">
+                </span>
+                <span class="bar">
+                </span><span class="bar">
+                </span>
+               </div>
+
+        </nav>
+        <script src="./home.js"></script>
+        </header>
+        
+
+    
     <main>
-        <video controls>
+        <video controls id="myvideo">
             <track kind="captions" src="./caption asset/caption.vtt" srclang="en" label="English">
             <source src="./videos/video ad.mp4" type="video/mp4">
             <p>Your browser doesn't support HTML video.</p> 
         </video>
-        <div><h1>CREATE YOUR OWN LOOK</h1></div>
-        <section>
-        <h3>New Arrivals</h3>
-        <div>
-            <div >
-                <img src="./Images/foundation pic 1.jpg"
+        <div class="header1"><h1>CREATE YOUR OWN LOOK</h1></div>
+        
+        <div class="header2"><h3>New Arrivals</h3> </div>
+        <div class="media-scroller snaps-inline">
+            <div class="product-container media-element">
+                <img class="product-image" src="./Images/foundation pic 1.jpg"
                  alt="make up pr">
-                <p>Glossier foundation</p>
+                <p class="title">Glossier foundation</p>
             </div>
-            <div >
-                <img src="./Images/foundation pic 2.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/foundation pic 2.jpg"
                  alt="make pr">
-            <p>liloy brsuh</p>
+            <p class="title">liloy brsuh</p>
             </div>
-            <div>
-                <img src="./Images/foundation pic 3.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/foundation pic 3.jpg"
                  alt="make u">
-             <p>terry foundation</p>
+             <p class="title">terry foundation</p>
             </div>
-            <div>
-                <img src="./Images/foundation pic 4.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/foundation pic 4.jpg"
                  alt="make pictre">
-             <p>teret brush</p>
+             <p class="title">teret brush</p>
             </div>
-            <div >
-                <img src="./Images/LIPSTICK 5.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/LIPSTICK 5.jpg"
                  alt="mak pic">
-             <p>rety foundation</p>
+             <p class="title"> rety foundation</p>
             </div>
-            <div >
-                <img src="./Images/LIPSTICK 5.jpg"
+            <div class="product-container media-element">
+                <img class="product-image" src="./Images/LIPSTICK 5.jpg"
                  alt="lorem ipsum">
-            <p>tire brush</p>
+            <p class="title">tire brush</p>
             </div>
-            <div>
-                <img src="./Images/LISTICK 1.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/LISTICK 1.jpg"
                  alt="make up prouduct pic">
-              <p>softy brush</p>
+              <p class="title">softy brush</p>
             </div>
         </div>
-        </section>
-        <section>
-        <h3>Top Products</h3>
-        <div>
-            <div >
-                <img src="./Images/foundation pic 5.jpg"
+        
+        
+        <div class="header2"><h3>Top Products</h3></div>
+        <div  class="media-scroller snaps-inline">
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/foundation pic 5.jpg"
                  alt="make up prouduct pic">
-              <p>softy foundation</p>
+              <p class="title">softy foundation</p>
             </div>
-            <div >
-                <img src="./Images/make up brush 1.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/make up brush 1.jpg"
                  alt="make up prouduct pictures">
-            <p>softy brush</p>
+            <p class="title">softy brush</p>
             </div>
-            <div>
-                <img src="./Images/foundation pic 4.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/foundation pic 4.jpg"
                  alt="make up prouduct picturs">
-             <p>magic brush</p>
+             <p class="title">magic brush</p>
             </div>
-            <div>
-                <img src="./Images/LIPSTICK 3.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/LIPSTICK 3.jpg"
                  alt="make up  picture">
-             <p>channel foundtaion</p>
+             <p class="title">channel foundtaion</p>
             </div>
-            <div >
-                <img src="./Images/LISTICK 1.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/LISTICK 1.jpg"
                  alt="prouduct pictur">
-             <p>glossier brush</p>
+             <p class="title">glossier brush</p>
             </div>
-            <div >
-                <img src="./Images/foundation pic 2.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/foundation pic 2.jpg"
                  alt="make up prouduct picture">
-            <p>hey foundation</p>
+            <p class="title">hey foundation</p>
             </div>
-            <div>
-                <img src="./Images/make up brush 3.jpg"
+            <div class="product-container media-element">
+                <img class="product-image"src="./Images/make up brush 3.jpg"
                  alt="make up prouduct pictur">
-              <p>yeh brush</p>
+              <p class="title">yeh brush</p>
             </div>
         </div>
         </section>
 
     </main>
     <footer>
-        <p>Subscribe to our newsletter<p>
-        
-        <label for="text">Full Name</label>
-        
-        <input type="text" name="Subscriber's name" placeholder="Full Name">
-        <label for="email">Email Address</label>
-        <input type="email" name="subscriber's email address" placeholder="Email Address">
-        
-        <button type="submit">Subscribe</button>
-        <p>@Copy right disclaimer</p>
+        <p class="subscribe foo">Subscribe to our newsletter<p>
+        <input class="foo inputs" type="text" name="Subscriber's name" placeholder="Full Name">
+        <p></p>
+        <input class="foo inputs" type="email" name="subscriber's email address" placeholder="Email Address">
+        <p></p>
+        <button onclick="myFunction()">Subscribe</button>
+        <p class="disclaimer">@Copy right disclaimer</p>
     </footer>
 </body>
 </html>

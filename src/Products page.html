@@ -5,166 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products page</title>
+    <link rel="stylesheet" href="./productstyle.css">
+    
 </head>
-<body>
-    <nav>
-        <div>
-        <div>
-            <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-          </div>
-          <a href="./Home.html"><img src="./Images/home icon.png" alt="home"></a>
-          <a href="./Mycart page.html" target="_blank"><img src="./Images/cart icon.png" alt="cart"></a>
-          </div></nav>
-          <main>
-         
-      <h1>Foundation</h1>
-      
-        <div >
-            <figure>            <img src="./Images/foundation pic 1.jpg"
+<body class="Body">
+    <script src="./product.js"></script>
+      <main>
+        <div class="container-fluid">
+          <div class="container">
+            <div class="search">
+              <input type="text" id="find" placeholder="Search" onkeyup="search()">
+              <button onclick="search()"><img class="search-icon" src="./Images/search icon.png" alt="search icon"></button><div class="nav-links">
+              <a class="navigation" href="./Home page.html"><img class="icons" src="./Images/home icon.png" alt="home"></a>
+          <a class="navigation" href="./my cart page.html" target="_blank"><img class="icons" src="./Images/cart icon.png" alt="cart"></a>
+            </div></div>
+      <h1 class="header1">Foundation</h1>
+      <div class="product-list">
+        <div class="product">
+            <img class="product-image" src="./Images/foundation pic 1.jpg"
              alt="make up prouduct picture">
-             <figcaption>
-             <p>glam foundation</p>
+             <h4>glam foundation</h4>
              <P>123$</P>
              <a href="./Ordering page.html" target="_blank">Shop Now</a>
-        </figcaption></figure></div>
-        <div >
-            <figure>
-            <img src="./Images/foundation pic 2.jpg"
+        </div>
+        <div class="product">
+            
+            <img class="product-image"src="./Images/foundation pic 2.jpg"
              alt="make up prouduct pictur">
-             <figcaption>
-             <p>hey foundation</p>
+             
+             <h4>hey foundation</h4>
              <P>123$</P>
              <a href="./Ordering page.html" target="_blank">Shop Now</a>
-       </figcaption> </figure></div>
-        <div>
-            <figure>
-            <img src="./Images/foundation pic 3.jpg"
+       </div>
+        <div class="product">
+          
+            <img class="product-image"src="./Images/foundation pic 3.jpg"
              alt="make up prouduct pictur">
-            <figcaption>
-             <p>ey foundation</p>
+        
+             <h4>ey foundation</h4>
              <P>123$</P>
              <a href="./Ordering page.html" target="_blank">Shop Now</a>
-        </figcaption></figure></div>
-        <div>
-            <figure>
-            <img src="./Images/foundation pic 4.jpg"
+        </div>
+        <div class="product">
+        
+            <img class="product-image"src="./Images/foundation pic 4.jpg"
              alt="make up prouduct picture">
-             <figcaption>
-             <p>he foundation</p>
+             
+             <h4>he foundation</h4>
              <P>123$</P>
              <a href="./Ordering page.html" target="_blank">Shop Now</a>
-        </figcaption></figure></div>
-        <div >
-            <figure>
-            <img src="./Images/foundation pic 5.jpg"
+        </div>
+        <div class="product">
+            
+            <img class="product-image"src="./Images/foundation pic 5.jpg"
              alt="make up prouduct pictur">
-             <figcaption>
-             <p>yeh foundation</p>
+            
+             <h4>yeh foundation</h4>
              <P>123$</P>
              <a href="./Ordering page.html" target="_blank">Shop Now</a>
-       </figcaption> </figure></div>
+       </div>
        
     </div>
-    <h1>Lip Stick</h1>
-    <div>
-      <div >
-          <img src="./Images/LIPSTICK 2.jpg"
+  
+    <h1 class="header2">Lip Stick</h1>
+    <div class="product-list">
+      <div class="product">
+          <img class="product-image"class="product-image"src="./Images/LIPSTICK 2.jpg"
            alt="make up prouduct picture">
-           <p>hey lipstick</p>
+           <h4>hey lipstick</h4>
            <P>123$</P>
            <a href="./Ordering page.html" target="_blank">Shop Now</a>
       </div>
-      <div >
-        <figure>
-          <img src="./Images/LIPSTICK 3.jpg"
+      <div class="product" >
+    
+          <img class="product-image"src="./Images/LIPSTICK 3.jpg"
            alt="make up prouduct pictur">
-           <figcaption>
-           <p>gloss lipstick</p>
+           
+           <h4>gloss lipstick</h4>
            <P>123$</P>
            <a href="./Ordering page.html" target="_blank">Shop Now</a>
-      </figcaption></figure></div>
-      <div>
-        <figure>
-          <img src="./picture"
+      </div>
+      <div class="product">
+        
+          <img class="product-image" src="./Images/LIPSTICK 2.jpg"
            alt="make up prouduct pictur">
-           <figcaption>
-           <p>hey brush</p>
+           
+           <h4>wow lipstick</h4>
            <P>123$</P>
            <a href="./Ordering page.html" target="_blank">Shop Now</a>
-      </figcaption></figure></div>
-      <div>
-        <figure>
-          <img src="./Images/LIPSTICK 4.jpg"
+      </div>
+      <div class="product">
+
+          <img class="product-image" src="./Images/LIPSTICK 4.jpg"
            alt="make up prouduct picture">
-           <figcaption>
-           <p>llime lipstick</p>
+          
+           <h4>llime lipstick</h4>
            <P>123$</P>
            <a href="./Ordering page.html" target="_blank">Shop Now</a>
-      </figcaption></figure></div>
-      <div >
-        <figure>
-          <img src="./Images/LISTICK 1.jpg"
+      </div>
+      <div class="product">
+        
+          <img class="product-image" src="./Images/LISTICK 1.jpg"
            alt="make up prouduct pictur">
-           <figcaption>
-           <p>cac lipstick</p>
+          
+           <h4>cac lipstick</h4>
            <P>123$</P>
            <a href="./Ordering page.html" target="_blank">Shop Now</a>
-    </figcaption> </figure> </div>
+     </div>
      
   </div>
-  <h1>Make up brush</h1>
-  <div>
-    <div >
-        <img src="./Images/make up brush 1.jpg"
+  <h1 class="header1">Make up brush</h1>
+  <div class="product-list">
+    <div class="product">
+        <img class="product-image"src="./Images/make up brush 1.jpg"
          alt="make up prouduct picture">
-         <p>hey brush</p>
+         <h4>hey brush</h4>
          <P>123$</P>
          <a href="./Ordering page.html" target="_blank">Shop Now</a>
     </div>
-    <div >
-      <figure>
-        <img src="./Images/make up brush 2.jpg"
+    <div cclass="product">
+      
+        <img class="product-image"src="./Images/make up brush 2.jpg"
          alt="make up prouduct pictur">
-         <figcaption>
-         <p>yeh brush</p>
+        
+         <h4>yeh brush</h4>
          <P>123$</P>
          <a href="./Ordering page.html" target="_blank">Shop Now</a>
-    </figcaption></figure></div>
-    <div>
-      <figure>
-        <img src="./Images/make up brush 3.jpg"
+    </div>
+    <div class="product">
+     
+        <img class="product-image"src="./Images/make up brush 3.jpg"
          alt="make up prouduct pictur">
-         <figcaption>
-         <p>hert brush</p>
+       
+         <h4>hert brush</h4>
          <P>123$</P>
          <a href="./Ordering page.html" target="_blank">Shop Now</a>
-    </figcaption></figure></div>
-    <div>
-      <figure>
-        <img src="./Images/make up brush 5.jpg"
-         alt="make up prouduct picture">
-         <figcaption>
-         <p>tek brush</p>
+  </div>
+    <div class="product">
+    
+        <img class="product-image"src="./Images/make up brush 5.jpg">
+        
+         <h4>tek brush</h4>
          <P>123$</P>
          <a href="./Ordering page.html" target="_blank">Shop Now</a>
-    </figcaption></figure></div>
-    <div >
-      <figure>
-        <img src="./Images/make up brush 6.jpg"
-         alt="make up prouduct pictur">
-         <figcaption>
-         <p>bur brush</p>
-         <P>123$</P>
-         <a href="./Ordering page.html" target="_blank">Shop Now</a>
-  </figcaption> </figure> </div>
+   </div>
+    <div class="product">
    
+        <img class="product-image"src="./Images/make up brush 6.jpg"
+         alt="make up prouduct pictur">
+        
+         <h4>bur brush</h4>
+         <P>123$</P>
+         <a href="./Ordering page.html" target="_blank">Shop Now</a>
+  </div>
+   </div>
+</div>
 </div>
 </main>
 <footer>
-    <p>@copy right disclaimer</p>
+    <p class="fotter-text">@copy right disclaimer</p>
 </footer>
 </body>
 </html>
